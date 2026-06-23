@@ -2,6 +2,8 @@
 
 SSH Keys Manager TUI — list, generate, rename, delete, and switch SSH keys right from your terminal.
 
+**100% offline. Zero data leaves your machine.** No telemetry, no analytics, no network calls. Everything runs locally on your `~/.ssh/` files.
+
 Built with [Ink](https://github.com/vadimdemedes/ink) (React for CLI).
 
 ## Install
@@ -66,6 +68,7 @@ npm uninstall -g ssh-keys-manager-tui
 
 ## How it works
 
+- **100% offline** — no network calls, no telemetry, no data collection
 - Discovers key pairs by scanning `~/.ssh/*` for private keys with matching `.pub` files
 - Uses `ssh-add` / `ssh-add -D` to manage keys in `ssh-agent`
 - Uses `ssh-keygen` for key generation, fingerprint inspection, and parsing
