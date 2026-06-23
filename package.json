@@ -1,0 +1,54 @@
+{
+  "name": "ssh-keys-manager-tui",
+  "version": "0.5.0",
+  "description": "SSH Keys Manager TUI — manage, generate, and switch SSH keys from the terminal",
+  "type": "module",
+  "bin": {
+    "ssh-tui": "dist/cli.js",
+    "sshtui": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "ink": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ssh",
+    "ssh-key",
+    "key-manager",
+    "tui",
+    "cli",
+    "ink",
+    "terminal",
+    "git",
+    "multi-account"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhle20001998/ssh-keys-manager-tui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minhle20001998/ssh-keys-manager-tui/issues"
+  },
+  "homepage": "https://github.com/minhle20001998/ssh-keys-manager-tui#readme"
+}
