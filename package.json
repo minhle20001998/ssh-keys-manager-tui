@@ -45,10 +45,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minklee/ssh-tui.git"
+    "url": "git+https://github.com/minhle20001998/ssh-keys-manager-tui.git"
   },
   "bugs": {
-    "url": "https://github.com/minklee/ssh-tui/issues"
+    "url": "https://github.com/minhle20001998/ssh-keys-manager-tui/issues"
   },
-  "homepage": "https://github.com/minklee/ssh-tui#readme"
+  "homepage": "https://github.com/minhle20001998/ssh-keys-manager-tui#readme"
 }
